@@ -1,0 +1,155 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+.cabec {
+    position: relative;
+    width: 940px;   
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li {
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 0px 70px 0px 70px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.p-descricao {
+    font-size: 18px;
+}
+
+.produtos li:hover {
+    border-radius: 0 0 0 0;
+    border-color: #333333;
+    border-width: 4px;
+}
+
+.produtos li:active {
+    border-color: #ffffff;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+footer {
+    text-align: center;
+    background: url("imgcoisas/bg.jpg");
+    padding: 40px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0px 0px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+form label,form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+} 
+
+.input-default {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+#box {
+    margin: 20px 0;
+}
+
+#enviar {
+    width: 40%;
+    padding: 20px 0;
+    background: gold;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border-spacing: 2px;
+    border: solid ;
+    border-color: goldenrod;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    border-color: gold;
+    transform: scale(1.05);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+
+td, th {
+    border: 1px solid black;
+    padding: 20px 30px;
+    font-size: 20px ;
+}

@@ -1,0 +1,92 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>falar com as batatas</title> 
+            <link rel="stylesheet" href="reset.css">   
+            <link rel="stylesheet" href="contato.css">
+        </head>
+
+        <body>
+           <header> 
+             <div class="cabec">
+                <h1><img src="imgcoisas/logo.png"></h1>
+
+                <nav>
+                    <ul>
+                       <li><a href="index.html">inicio</a></li>
+                       <li><a href="ascoisa.html">as coisa</a></li>
+                       <li><a href="contato">falar com batatas</a></li>
+                    </ul>
+                </nav>
+             </div>
+            </header>
+            <body>
+                <main>
+                    <form>
+                        <label for="nome">Nome e sobrenome:</label>
+                        <input type="text" id="nome" class="input-default" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" class="input-default" required placeholder="batatas@batata.com">
+
+                        <label for="numero">Número de telefone:</label>
+                        <input type="tel" id="numero" class="input-default" required placeholder="(00) 00000-0000">
+                        
+                        <label for="msg">Mensagem:</label>
+                        <textarea id="msg" cols="70" rows="10" class="input-default"></textarea>
+                        
+                        <fieldset>
+                            <legend>Como prefere o nosso contato?</legend>
+                            <label><input type="radio" name="contato" value="email" id="r-email">E-mail</label>
+                            <label> <input type="radio" name="contato" value="phone" id="r-phone">Telefone</label>
+                            <label><input type="radio" name="contato" value="zap" id="r-zap">WhatsApp</label> 
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Qual horário prefere ser atendido?</legend>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                        </fieldset>
+
+                        <label id="box"><input type="checkbox" checked>Gostaria de receber nossas novidades por E-mail</label>
+
+                        <input type="submit" value="Enviar formulário" id="Enviar">
+
+                     
+                    </form>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Horário</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda</td>
+                                <td>8h - 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Quarta</td>
+                                <td>8h - 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Sexta</td>
+                                <td>8h - 20h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </main>
+            </body>
+            
+            <footer>
+                <img src="imgcoisas/logo-branco.png">
+                <p>&copy; Copyright sociedade das batatas - 2027</p>
+            </footer>
+        </body>
+    </html>
